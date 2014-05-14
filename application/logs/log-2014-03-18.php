@@ -1,0 +1,49 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2014-03-18 10:14:25 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 311
+ERROR - 2014-03-18 11:13:50 --> 404 Page Not Found --> check_volume
+ERROR - 2014-03-18 15:08:52 --> 404 Page Not Found --> user_guide
+ERROR - 2014-03-18 15:36:00 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 386
+ERROR - 2014-03-18 15:38:22 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 386
+ERROR - 2014-03-18 15:39:25 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 386
+ERROR - 2014-03-18 15:42:04 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 386
+ERROR - 2014-03-18 15:43:37 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 386
+ERROR - 2014-03-18 15:53:20 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 385
+ERROR - 2014-03-18 15:54:33 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 385
+ERROR - 2014-03-18 15:55:42 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 385
+ERROR - 2014-03-18 15:56:23 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 385
+ERROR - 2014-03-18 15:57:14 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 385
+ERROR - 2014-03-18 15:57:41 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 385
+ERROR - 2014-03-18 15:58:58 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 385
+ERROR - 2014-03-18 15:59:31 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 385
+ERROR - 2014-03-18 16:01:29 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 385
+ERROR - 2014-03-18 16:01:58 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 385
+ERROR - 2014-03-18 16:02:30 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 385
+ERROR - 2014-03-18 16:03:10 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 385
+ERROR - 2014-03-18 16:03:20 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 385
+ERROR - 2014-03-18 16:05:10 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 386
+ERROR - 2014-03-18 16:07:52 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 386
+ERROR - 2014-03-18 16:08:17 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 386
+ERROR - 2014-03-18 16:08:22 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 386
+ERROR - 2014-03-18 16:08:58 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 388
+ERROR - 2014-03-18 16:09:37 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 388
+ERROR - 2014-03-18 16:09:47 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 388
+ERROR - 2014-03-18 16:11:23 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 386
+ERROR - 2014-03-18 16:12:04 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 386
+ERROR - 2014-03-18 16:12:16 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 386
+ERROR - 2014-03-18 16:12:28 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 386
+ERROR - 2014-03-18 16:12:57 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 386
+ERROR - 2014-03-18 16:13:12 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 386
+ERROR - 2014-03-18 16:13:53 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 386
+ERROR - 2014-03-18 16:14:02 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 386
+ERROR - 2014-03-18 16:14:09 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 386
+ERROR - 2014-03-18 16:14:39 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 386
+ERROR - 2014-03-18 16:15:29 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 386
+ERROR - 2014-03-18 16:19:10 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 386
+ERROR - 2014-03-18 16:20:04 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 386
+ERROR - 2014-03-18 16:20:55 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 386
+ERROR - 2014-03-18 16:21:29 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 386
+ERROR - 2014-03-18 16:22:30 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 386
+ERROR - 2014-03-18 16:58:45 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 386
+ERROR - 2014-03-18 17:03:21 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 384
+ERROR - 2014-03-18 17:03:38 --> Severity: Notice  --> Use of undefined constant province_id - assumed 'province_id' D:\xampp\htdocs\sala2\system\core\Loader.php(829) : eval()'d code 384
