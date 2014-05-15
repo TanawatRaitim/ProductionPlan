@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link href='http://localhost/production_plan/assets/bootstrap/dist/css/bootstrap.min.css' rel='stylesheet'>
+	<link href='http://localhost/production_plan/assets/bootflatv2/bootflat/css/bootflat.css' rel='stylesheet'>
+	<link href='http://localhost/production_plan/assets/css/style.css' rel='stylesheet'>
 <?php foreach($css_files as $file): ?>
 	<link type="text/css" rel="stylesheet" href="<?php echo $file; ?>" />
 <?php endforeach; ?>
-	<link type="text/css" rel="stylesheet" href="<?php echo base_url();?>assets/metro_ui/css/metro-bootstrap.css" />
-	<link type="text/css" rel="stylesheet" href="<?php echo base_url();?>assets/metro_ui/css/metro-bootstrap-responsive.css" />
-	<link type="text/css" rel="stylesheet" href="<?php echo base_url();?>assets/grocery_crud/css/ui/simple/jquery-ui-1.10.1.custom.min.css" />
+
 <?php foreach($js_files as $file): ?>
 	<script src="<?php echo $file; ?>"></script>
 <?php endforeach; ?>
-	<script src="http://172.168.0.184/sala2/assets/grocery_crud/js/jquery_plugins/ui/jquery-ui-1.10.3.custom.min.js"></script>
-	<script src="http://172.168.0.184/sala2/assets/metro_ui/min/metro.min.js"></script>
-	
+	<script src='http://localhost/production_plan/assets/bootstrap/dist/js/bootstrap.min.js'></script>
 	<style type='text/css'>
 	body
 	{
@@ -45,23 +45,12 @@
 		padding: 5px;
 	}
 	</style>
-	<title>ทะเบียนสมาชิก</title>
+	<title><?php echo $this->config->item('system_name');?></title>
 </head>
-<body class="metro">
+<body>
     	<?php $this->load->view('template/navigation');?>	
-	<!-- <div>
-		<a href='<?php echo site_url('examples/customers_management')?>'>Customers</a> |
-		<a href='<?php echo site_url('examples/orders_management')?>'>Orders</a> |
-		<a href='<?php echo site_url('examples/products_management')?>'>Products</a> |
-		<a href='<?php echo site_url('examples/offices_management')?>'>Offices</a> | 
-		<a href='<?php echo site_url('examples/employees_management')?>'>Employees</a> |		 
-		<a href='<?php echo site_url('examples/film_management')?>'>Films</a> | 
-		<a href='<?php echo site_url('examples/film_management_twitter_bootstrap')?>'>Twitter Bootstrap Theme [BETA]</a> | 
-		<a href='<?php echo site_url('examples/multigrids')?>'>Multigrid [BETA]</a>
-		
-	</div> -->
 	<div style='height:20px;'></div>  
-    <div class="container" style="margin-top: 50px;">
+    <div class="container">
 		<?php echo $output; ?>
     </div>
 </body>

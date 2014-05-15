@@ -87,8 +87,13 @@ class Auth extends CI_Controller {
 		$css = array(
 					'css/signin.css'
 					);
+		$js = array(
+					'js/jquery_validation/dist/jquery.validate.min.js'
+					);
+					
+					
 		$this->data['css'] = $this->assets->get_css($css);
-		$this->data['js'] = $this->assets->get_js();
+		$this->data['js'] = $this->assets->get_js($js);
 
 		//validate form input
 		$this->form_validation->set_rules('identity', 'Identity', 'required');
@@ -119,7 +124,7 @@ class Auth extends CI_Controller {
 				//if the login was un-successful
 				//redirect them back to the login page
 				// $this->session->set_flashdata('message', $this->ion_auth->errors());
-				$this->session->set_flashdata('message', 'ไม่สามารถเข้าระบบได้');
+				$this->session->set_flashdata('message', 'ไม่สามารถเข้าระบบได้โปรดตรวจสอบชื่อและรหัสผ่าน');
 				redirect('auth/login', 'refresh'); //use redirects instead of loading views for compatibility with MY_Controller libraries
 			}
 		}

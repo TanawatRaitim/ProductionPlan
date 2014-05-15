@@ -28,47 +28,20 @@ class Main extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->model('member_model');
-		
-		/********************************        config pagination     **********************/		
-		
-		$config['base_url'] = base_url()."/main/index/";
-		$config['per_page'] = 25;																//how many record per page
-		$config['num_links'] = 6;																//how many link to show
-		$config['full_tag_open'] = '<div class="pagination pagination-centered pagination-small"><ul>';										//bootstrap use <div class="pagination"></div>
-		$config['full_tag_close'] = '</ul></div>';
-		$config['num_tag_open'] = '<li>';
-		$config['num_tag_close'] = '</li>';
-		$config['cur_tag_open'] = '<li class="active"><a href="#"><b>';
-		$config['cur_tag_close'] = '</b></a></li>';
-		$config['first_tag_open'] = "<li>";
-		$config['first_tag_close'] = "</li>";
-		$config['last_tag_open'] = "<li>";
-		$config['last_tag_close'] = "</li>";
-		$config['next_tag_open'] = "<li>";
-		$config['next_tag_close'] = "</li>";
-		$config['prev_tag_open'] = "<li>";
-		$config['prev_tag_close'] = "</li>";
-		$this->data['histories'] = $this->member_model->get_all_history($config['per_page'],$this->uri->segment(3));						
-		$config['total_rows'] = $this->db->count_all('history');							//แถวทั้งหมด
-		$this->pagination->initialize($config);												//create
-		$this->data['pagination'] = $this->pagination->create_links();
-		$this->data['total_rows'] = $config['total_rows'];
-		
-/**********************************end config pagination*******************************************************************/	
-		
-		$this->data['title'] = 'หน้าหลัก';
-		$this->data['keyword'] = '';
-		$this->data['rows_text'] = 'พบรายการทั้งหมด '.$config['total_rows'].' รายการ';
-		$this->session->set_userdata('previous_url',uri_string());
-		
-		/*
-		echo '<pre>';
-		print_r($this->session->userdata);
-		echo '</pre>';
-		*/
+		$this->load->library('assets');
+		$css = array(
+					'css/style.css'
+					);
+		$js = array();
+					
+		$this->data['css'] = $this->assets->get_css($css);
+		$this->data['js'] = $this->assets->get_js($js);
+		$this->data['title'] = "หน้าหลัก";
+		$this->data['navigation'] = $this->load->view('template/navigation','',TRUE);
+		$this->data['content'] = $this->load->view('template/main/main','',TRUE);
 		
 		$this->load->view('template/main',$this->data);
+	
 	}
 
 	public function search($keyword=FALSE)
@@ -151,6 +124,37 @@ class Main extends CI_Controller {
 /**********************************end config pagination*******************************************************************/		
 		$this->load->view('template/main',$this->data);
 	}
+
+	public function jobs()
+	{
+			$crud = new grocery_CRUD();
+			$crud->set_table('jobs');
+			$crud->set_subject('เครื่องจักร / งาน');
+			$output = $crud->render();
+			$this->_data_output($output);
+	}
+	
+
+	public function papers()
+	{
+			$crud = new grocery_CRUD();
+			$crud->set_table('papers');
+			$crud->set_subject('กระดาษ');
+			$output = $crud->render();
+			$this->_data_output($output);
+	}
+	
+
+	public function technician()
+	{
+			$crud = new grocery_CRUD();
+			$crud->set_table('technician');
+			$crud->set_subject('technician');
+			$output = $crud->render();
+			$this->_data_output($output);
+	}
+	
+	
 	
 	public function history()
 	{

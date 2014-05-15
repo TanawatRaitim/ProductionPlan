@@ -57,6 +57,13 @@ $config['css'] = 'css/style.css';
 
 
 
+/**
+ * 
+ * Text
+ * 
+ */
+$config['system_name'] = 'Production Plan';
+
 
 
 /*
