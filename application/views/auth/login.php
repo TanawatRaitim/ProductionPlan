@@ -40,7 +40,10 @@
 		label.error,#infoMessage, #error_message{
 			color: red;
 			text-align: center;
-			padding-top: 20px;	
+			padding-top: 10px;	
+		}
+		.form-signin-heading{
+			text-align: center;
 		}
 
 	</style>
@@ -51,6 +54,7 @@
 	<div class="container">
 
       <?php echo form_open("auth/login",array('id'=>'form_login','name'=>'form_login','class'=>'form-signin','role'=>'form'));?>
+        <h3 class="form-signin-heading"><?php echo $this->config->item('system_name');?></h3>
         <h5 class="form-signin-heading">กรุณาลงชื่อเข้าสู่ระบบ</h5>
         <input type="text" class="form-control" name="identity" id="identity" placeholder="Email address" required autofocus>
         <input type="password" class="form-control" name="password" id="password" placeholder="Password" required>
@@ -71,10 +75,5 @@
 
     </div> <!-- /container -->
 
-	
-	
-	
-	
-	
 </body>
 </html>

@@ -12,36 +12,38 @@
 	<h1>Fluid view</h1>	
 	
 	<div class="col-md-12">
-		<table class="table">
-			<thead>
-				<tr>
-					<th>header1</th>
-					<th>header2</th>
-					<th>header3</th>
-					<th>header4</th>
-					<th>header5</th>
-					<th>header6</th>
-					<th>header7</th>
-					<th>header8</th>
-					<th>header9</th>
-					<th>header10</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>content1</td>
-					<td>content2</td>
-					<td>content3</td>
-					<td>content4</td>
-					<td>content5</td>
-					<td>content6</td>
-					<td>content7</td>
-					<td>content8</td>
-					<td>content9</td>
-					<td>content10</td>
-				</tr>
-			</tbody>
-		</table>
+		<div class="table-responsive">
+			<table class="table">
+				<thead>
+					<tr>
+						<th>header1</th>
+						<th>header2</th>
+						<th>header3</th>
+						<th>header4</th>
+						<th>header5</th>
+						<th>header6</th>
+						<th>header7</th>
+						<th>header8</th>
+						<th>header9</th>
+						<th>header10</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>content1</td>
+						<td>content2</td>
+						<td>content3</td>
+						<td>content4</td>
+						<td>content5</td>
+						<td>content6</td>
+						<td>content7</td>
+						<td>content8</td>
+						<td>content9</td>
+						<td>content10</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 	</div>
 	
 	<div class="col-md-12-">
@@ -61,6 +63,112 @@
 		<div class="col-md-3">content1</div>
 		<div class="col-md-3">content1</div>
 		<div class="col-md-3">content1</div>
+	</div>
+	
+	<div class="col-md-12">
+		<div class="col-md-4">
+			<div class="table-responsive">
+				<table class="table">
+					<thead>
+						<tr>
+							<th>header1</th>
+							<th>header2</th>
+							<th>header3</th>
+							<th>header4</th>
+							<th>header5</th>
+							<th>header6</th>
+							<th>header7</th>
+							<th>header8</th>
+							<th>header9</th>
+							<th>header10</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>content1</td>
+							<td>content2</td>
+							<td>content3</td>
+							<td>content4</td>
+							<td>content5</td>
+							<td>content6</td>
+							<td>content7</td>
+							<td>content8</td>
+							<td>content9</td>
+							<td>content10</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="table-responsive">
+				<table class="table">
+					<thead>
+						<tr>
+							<th>header1</th>
+							<th>header2</th>
+							<th>header3</th>
+							<th>header4</th>
+							<th>header5</th>
+							<th>header6</th>
+							<th>header7</th>
+							<th>header8</th>
+							<th>header9</th>
+							<th>header10</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>content1</td>
+							<td>content2</td>
+							<td>content3</td>
+							<td>content4</td>
+							<td>content5</td>
+							<td>content6</td>
+							<td>content7</td>
+							<td>content8</td>
+							<td>content9</td>
+							<td>content10</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="table-responsive">
+				<table class="table">
+					<thead>
+						<tr>
+							<th>header1</th>
+							<th>header2</th>
+							<th>header3</th>
+							<th>header4</th>
+							<th>header5</th>
+							<th>header6</th>
+							<th>header7</th>
+							<th>header8</th>
+							<th>header9</th>
+							<th>header10</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>content1</td>
+							<td>content2</td>
+							<td>content3</td>
+							<td>content4</td>
+							<td>content5</td>
+							<td>content6</td>
+							<td>content7</td>
+							<td>content8</td>
+							<td>content9</td>
+							<td>content10</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+
 	</div>
 	
 </div>
