@@ -60,6 +60,43 @@ class Test extends CI_Controller {
 		
 		
 	}
+	
+	public	function json()
+	{
+		$s = json_encode(array(
+						'big',
+						'test',
+						'por',
+						'tt'
+						));
+		
+		$array = array(
+				't'=>'test',
+				'b'=>'big',
+				'ta'=>'tanawat',
+				'r'=>'raitim'
+				);
+				
+				
+						
+						
+		echo '<pre>';				
+		print_r($s);
+		echo '</pre>';
+		
+		echo '<br />';
+		
+		$us = json_decode($s);
+		
+		echo '<pre>';				
+		print_r($us);
+		echo '</pre>';
+	}
+	
+	
+	
+	
+	
 
 	
 }
