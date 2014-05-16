@@ -109,8 +109,6 @@ class Main extends CI_Controller {
 			$previous_url = $previous_url."/".urldecode($keyword);
 		}
 		
-		
-		
 		$this->session->set_userdata('previous_url',$previous_url);
 		
 		$this->data['total_rows'] = $config['total_rows'];

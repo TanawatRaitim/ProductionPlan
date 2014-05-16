@@ -19,13 +19,46 @@ class Test extends CI_Controller {
 		$this->data['scripts'] = $this->assets->get_script();
 		$this->data['title'] = 'test page';
 		$this->data['nav'] = 'this is nav';
-		
 		$view1['my_data'] = 'data1';
 		$this->data['content'] = $this->load->view('view1',$view1,TRUE);
 		
-		
-		
 		$this->load->view('template/template', $this->data);
+	}
+	
+	public function serialize()
+	{
+		//serialize($value)
+		// unserialize($str)
+		$s = serialize(array(
+						'big',
+						'test',
+						'por',
+						'tt'
+						));
+		
+		$array = array(
+				't'=>'test',
+				'b'=>'big',
+				'ta'=>'tanawat',
+				'r'=>'raitim'
+				);
+				
+				
+						
+						
+		echo '<pre>';				
+		print_r($s);
+		echo '</pre>';
+		
+		echo '<br />';
+		
+		$us = unserialize($s);
+		
+		echo '<pre>';				
+		print_r($us);
+		echo '</pre>';
+		
+		
 	}
 
 	
