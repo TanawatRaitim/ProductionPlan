@@ -152,6 +152,16 @@ class Main extends CI_Controller {
 			$this->_data_output($output);
 	}
 	
+
+	public function duration()
+	{
+			$crud = new grocery_CRUD();
+			$crud->set_table('duration');
+			$crud->set_subject('Duration');
+			$output = $crud->render();
+			$this->_data_output($output);
+	}
+	
 	
 	
 	public function history()

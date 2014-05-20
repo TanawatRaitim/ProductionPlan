@@ -24,6 +24,7 @@
             <li><a href="<?php echo site_url('main/papers')?>">ประเภทกระดาษ</a></li>
             <li><a href="<?php echo site_url('main/jobs')?>">งาน / เครื่องจักร</a></li>
             <li><a href="<?php echo site_url('main/technician')?>">ผู้รับผิดชอบ</a></li>
+            <li><a href="<?php echo site_url('main/duration')?>">ช่วงเวลา</a></li>
             <li class="divider"></li>
             <li><a href="#">Separated link</a></li>
             <li class="divider"></li>
