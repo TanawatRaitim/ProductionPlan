@@ -9,7 +9,6 @@ class Test extends CI_Controller {
 		parent::__construct();
 		$this->load->library('assets');
 	}
-
 	
 
 	public function index()
@@ -42,10 +41,7 @@ class Test extends CI_Controller {
 				'ta'=>'tanawat',
 				'r'=>'raitim'
 				);
-				
-				
-						
-						
+		
 		echo '<pre>';				
 		print_r($s);
 		echo '</pre>';
@@ -59,6 +55,11 @@ class Test extends CI_Controller {
 		echo '</pre>';
 		
 		
+	}
+	
+	public function dragable()
+	{
+		$this->load->view('test/dragable');
 	}
 	
 	public	function json()
@@ -76,10 +77,6 @@ class Test extends CI_Controller {
 				'ta'=>'tanawat',
 				'r'=>'raitim'
 				);
-				
-				
-						
-						
 		echo '<pre>';				
 		print_r($s);
 		echo '</pre>';
@@ -92,11 +89,4 @@ class Test extends CI_Controller {
 		print_r($us);
 		echo '</pre>';
 	}
-	
-	
-	
-	
-	
-
-	
 }
