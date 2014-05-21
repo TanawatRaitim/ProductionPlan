@@ -30,11 +30,18 @@
 		</style>
 		<script>
 			$(function() {
+				
+				//add accordion to div#catalog
 				$("#catalog").accordion();
+				
+				
+				//add items to draggable
 				$("#catalog li").draggable({
 					appendTo : "body",
 					helper : "clone"
 				});
+				
+				//add drop zone
 				$("#cart ol").droppable({
 					activeClass : "ui-state-default",
 					hoverClass : "ui-state-hover",
