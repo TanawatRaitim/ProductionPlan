@@ -10,7 +10,6 @@ class Test extends CI_Controller {
 		$this->load->library('assets');
 	}
 	
-
 	public function index()
 	{
 		
