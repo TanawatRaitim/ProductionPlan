@@ -14,7 +14,8 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link</a></li>
+        <!-- <li class="active"><a href="#">Link</a></li> -->
+        <li><a href="<?php echo site_url('plan')?>">วางแผน</a></li>
         <li><a href="#">Link</a></li>
         
         
@@ -72,6 +73,7 @@
             <li><a href="#">Separated link</a></li>
           </ul>
         </li>
+        <li><a href="<?php echo site_url('auth/logout')?>">ออกจากโปรแกรม</a></li>
       </ul>
       
       
