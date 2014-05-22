@@ -57,3 +57,7 @@ table#history_data tr td{
 	right: 0px;
 	top: 0px;
 }
+
+.table-responsive{
+	overflow-x: auto;
+}

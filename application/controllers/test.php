@@ -88,4 +88,44 @@ class Test extends CI_Controller {
 		print_r($us);
 		echo '</pre>';
 	}
+	
+	public function test_array()
+	{
+		
+		$array1 = array(
+						'items'=>array(
+							'Milk',
+							'Eggs',
+							'Bread'
+						)
+					);
+		
+		//or
+		
+		//$array2 = ['items'=>['Milk', 'Eggs', 'Bread']];
+		
+		
+		echo '<pre>';
+		
+		print_r($array1);
+		
+		echo '</pre>';
+		
+		
+		echo '<pre>';
+		
+		var_dump($array1);
+		
+		echo '</pre>';
+		
+		
+		//$object = 
+		
+		
+		
+		
+		
+		
+		
+	}
 }
