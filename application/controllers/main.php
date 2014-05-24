@@ -127,7 +127,17 @@ class Main extends CI_Controller {
 	{
 			$crud = new grocery_CRUD();
 			$crud->set_table('jobs');
+			$crud->set_relation('type','job_type','name');
 			$crud->set_subject('เครื่องจักร / งาน');
+			$output = $crud->render();
+			$this->_data_output($output);
+	}
+
+	public function job_type()
+	{
+			$crud = new grocery_CRUD();
+			$crud->set_table('job_type');
+			$crud->set_subject('ประเภทงาน');
 			$output = $crud->render();
 			$this->_data_output($output);
 	}
@@ -191,25 +201,6 @@ class Main extends CI_Controller {
 			$crud->set_relation('geo_id','geography','name');
 			$crud->set_subject('รายชื่อจังหวัด');
 			$extras = array();
-			
-/**
- * 
- * test new method set_extra_data()
- * @param array
- * @return array
- * 
- * 
- */
-			
-			// $extras['big'] = 'tanawat';
-			// $extras['por'] = 'rittigun';
-			// $extras['jsfile'] = array();
-			// $extras['jsfile'][] = 'file1';
-			// $extras['jsfile'][] = 'file2';
-			// $extras['jsfile'][] = 'file3';
-			// $extras['jsfile'][] = 'file4';
-			//$crud->set_extra_data($extras);
-			
 			$output = $crud->render();
 			$this->_data_output($output);
 	}	

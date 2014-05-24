@@ -80,6 +80,8 @@
 				    			<tr>
 				    				<th>Job ID</th>
 				    				<th></th>
+				    				<th>ประเภทงาน</th>
+				    				<th></th>
 				    				<th>Job Name</th>
 				    				<th></th>
 				    				<th>Qty.</th>
@@ -107,6 +109,9 @@
 				    			<tr>
 				    				
 					    			<td><input type="text" class="form-control input-sm" placeholder="รหัสงาน" /></td>
+					    			<td>&nbsp;&nbsp;&nbsp;</td>
+				    				
+					    			<td><input type="text" class="form-control input-sm" placeholder="ประเภทงาน" /></td>
 					    			<td>&nbsp;&nbsp;&nbsp;</td>
 				    				
 					    			<td><input type="text" class="form-control input-sm" placeholder="ชื่องาน" /></td>
@@ -178,15 +183,15 @@
 					    		</thead>
 					    		<tbody>
 					    			<tr>
-					    				<td><input type="text" class="form-control input-sm" placeholder="" /></td>
+					    				<td><input type="text" class="form-control input-sm" placeholder="วิธีกาผลิต" /></td>
 					    				<td>&nbsp;&nbsp;&nbsp;</td>
-					    				<td><input type="text" class="form-control input-sm" placeholder="" /></td>
+					    				<td><input type="text" class="form-control input-sm" placeholder="เวลาเริ่ม" /></td>
 					    				<td>&nbsp;&nbsp;&nbsp;</td>
-					    				<td><input type="text" class="form-control input-sm" placeholder="" /></td>
+					    				<td><input type="text" class="form-control input-sm" placeholder="เวลาเสร็จ" /></td>
 					    				<td>&nbsp;&nbsp;&nbsp;</td>
-					    				<td><input type="text" class="form-control input-sm" placeholder="" /></td>
+					    				<td><input type="text" class="form-control input-sm" placeholder="ชม." /></td>
 					    				<td>&nbsp;&nbsp;&nbsp;</td>
-					    				<td><input type="text" class="form-control input-sm" placeholder="" /></td>
+					    				<td><input type="text" class="form-control input-sm" placeholder="แผน" /></td>
 					    				<td>&nbsp;&nbsp;&nbsp;</td>
 					    			</tr>
 					    			<tr>
