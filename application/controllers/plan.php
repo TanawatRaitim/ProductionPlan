@@ -23,7 +23,9 @@ class Plan extends CI_Controller {
 		$css = array(
 					'css/style.css'
 					);
-		$js = array();
+		$js = array(
+					//'bootflatv2/bootflat/js/icheck.min.js'
+					);
 					
 		$this->data['css'] = $this->assets->get_css($css);
 		$this->data['js'] = $this->assets->get_js($js);
