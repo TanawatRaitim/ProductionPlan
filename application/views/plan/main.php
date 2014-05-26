@@ -9,53 +9,56 @@
 			  <div class="panel-heading">Planning next 3 days</div>
 			  <div class="panel-body">
 			    <div class="table-responsive">
-			    	<!-- <table class="table table-condense"> -->
-			    		
-					Planning next 3 days	
-			    		
-			    	<!-- <table class="plan-table" border="1px">
-			    		<thead>
-			    			<tr>
-			    				<th>วันที่</th>
-			    				<th>dd/mm/yy</th>
-			    				<th>รายละเอียดงาน</th>
-			    				<th>การวางแผนการผลิด</th>
-			    				<th>ความพร้อม</th>
-			    				<th>head</th>
-			    				<th>head</th>
-			    				<th>head</th>
-			    				<th>head</th>
-			    				<th>head</th>
-			    			</tr>
-			    			<tr>
-			    				<th>H5/2</th>
-			    				<th>Job No.</th>
-			    				<th>ชื่องาน</th>
-			    				<th>pcs</th>
-			    				<th>การผลิต</th>
-			    				<th>สี</th>
-			    				<th>head</th>
-			    				<th>head</th>
-			    				<th>head</th>
-			    				<th>head</th>
-			    			</tr>
-			    		</thead>
-			    		<tbody>
-			    			<tr>
-			    				<td>cell</td>
-			    				<td>cell</td>
-			    				<td>cell</td>
-			    				<td>cell</td>
-			    				<td>cell</td>
-			    				<td>cell</td>
-			    				<td>cell</td>
-			    				<td>cell</td>
-			    				<td>cell</td>
-			    				<td>cell</td>
-			    			</tr>
-			    		</tbody>
-			    	</table>
-			    	 -->
+			    	<table class="table table-condensed">
+				    		<thead>
+				    			<tr>
+				    				<th colspan="8">วิธีการผลิตทั้งหมด</th>
+				    			</tr>
+				    			<tr>
+				    				<th>วิธีการผลิต</th>
+				    				<th>เริ่ม</th>
+				    				<th>เสร็จ</th>
+				    				<th>ชม.</th>
+				    				<th>ใบสั่ง</th>
+				    				<th>กระดาษ</th>
+				    				<th>เพลท</th>
+				    				<th>Plan</th>
+				    			</tr>	
+				    		</thead>
+				    		<tbody>
+				    			<tr>
+				    				<td>cell</td>
+				    				<td>cell</td>
+				    				<td class="info">cell</td>
+				    				<td>cell</td>
+				    				<td>cell</td>
+				    				<td>cell</td>
+				    				<td>cell</td>
+				    				<td>cell</td>
+				    			</tr>
+				    			<tr class="success">
+				    				<td>cell</td>
+				    				<td>cell</td>
+				    				<td>cell</td>
+				    				<td>cell</td>
+				    				<td>cell</td>
+				    				<td>cell</td>
+				    				<td>cell</td>
+				    				<td class="danger">cell</td>
+				    			</tr>
+				    			<tr>
+				    				<td>cell</td>
+				    				<td>cell</td>
+				    				<td>cell</td>
+				    				<td>cell</td>
+				    				<td>cell</td>
+				    				<td>cell</td>
+				    				<td>cell</td>
+				    				<td class="danger">cell</td>
+				    			</tr>
+				    		</tbody>
+				    	</table>
+
 			    </div>
 			  </div>
 			</div>
@@ -68,7 +71,7 @@
 		</style>
 		
 		<div class="col-md-12">
-			<div class="panel panel-primary">
+			<div class="panel panel-danger">
 			  <div class="panel-heading">Insert new plan</div>
 			  <div class="panel-body">
 			  	<fieldset class="bg-info" style="padding: 0px 0px 15px 10px;">
@@ -76,6 +79,7 @@
 				
 				    <div class="table-responsive">
 				    	<table>
+				    		<!-- 
 				    		<thead>
 				    			<tr>
 				    				<th>Job ID</th>
@@ -105,6 +109,7 @@
 				    				
 				    			</tr>
 				    		</thead>
+				    		 -->
 				    		<tbody>
 				    			<tr>
 				    				
@@ -152,7 +157,7 @@
 					    		<tr>
 					    			<td colspan="6"><input type="file" /></td>
 					    			<td colspan="6"><input type="file" /></td>
-					    			<td><button class="btn btn-info">เพิ่มแผนงาน </button></td>
+					    			<td><button class="btn btn-danger">เพิ่มแผนงาน </button></td>
 					    		</tr>
 				    		</tbody> 
 				    	</table>
@@ -167,6 +172,7 @@
 					  <legend style="margin-bottom: 0px;">การผลิต</legend>
 						<div class="table-responsive">
 					    	<table>
+					    		<!-- 
 					    		<thead>
 					    			<tr>
 					    				<th>วิธีการผลิต</th>
@@ -181,6 +187,7 @@
 					    				<th></th>
 					    			</tr>	
 					    		</thead>
+					    		 -->
 					    		<tbody>
 					    			<tr>
 					    				<td><input type="text" class="form-control input-sm" placeholder="วิธีกาผลิต" /></td>
@@ -210,7 +217,7 @@
 												<input type="checkbox" id="plate2" />
 												เพลท
 											</label>
-											<button class="btn btn-info">เพิ่มวิธีการผลิต <span class="glyphicon glyphicon-fast-forward"></span></button>
+											<button class="btn btn-danger">เพิ่มวิธีการผลิต <span class="glyphicon glyphicon-fast-forward"></span></button>
 					    				</td>
 					    			</tr>
 					    		</tbody>
@@ -238,34 +245,24 @@
 				    		</thead>
 				    		<tbody>
 				    			<tr>
-				    				<td>cell</td>
-				    				<td>cell</td>
-				    				<td class="info">cell</td>
-				    				<td>cell</td>
-				    				<td>cell</td>
-				    				<td>cell</td>
-				    				<td>cell</td>
-				    				<td>cell</td>
+				    				<td>กลับตีลังกา</td>
+				    				<td>8.30</td>
+				    				<td class="info">10.30</td>
+				    				<td>2</td>
+				    				<td><span class="glyphicon glyphicon-ok"></span></td>
+				    				<td><span class="glyphicon glyphicon-ok"></span></td>
+				    				<td><span class="glyphicon glyphicon-ok"></span></td>
+				    				<td>4A</td>
 				    			</tr>
 				    			<tr class="success">
-				    				<td>cell</td>
-				    				<td>cell</td>
-				    				<td>cell</td>
-				    				<td>cell</td>
-				    				<td>cell</td>
-				    				<td>cell</td>
-				    				<td>cell</td>
-				    				<td class="danger">cell</td>
-				    			</tr>
-				    			<tr>
-				    				<td>cell</td>
-				    				<td>cell</td>
-				    				<td>cell</td>
-				    				<td>cell</td>
-				    				<td>cell</td>
-				    				<td>cell</td>
-				    				<td>cell</td>
-				    				<td class="danger">cell</td>
+				    				<td>กลับนอก</td>
+				    				<td>10.30</td>
+				    				<td>12.00</td>
+				    				<td>1.5</td>
+				    				<td><span class="glyphicon glyphicon-ok"></span></td>
+				    				<td><span class="glyphicon glyphicon-ok"></span></td>
+				    				<td></td>
+				    				<td>4B</td>
 				    			</tr>
 				    		</tbody>
 				    	</table>
