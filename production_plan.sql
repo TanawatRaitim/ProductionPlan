@@ -2,10 +2,10 @@
 -- version 4.0.9
 -- http://www.phpmyadmin.net
 --
--- Host: 127.0.0.1
--- Generation Time: May 24, 2014 at 02:11 PM
--- Server version: 5.5.34
--- PHP Version: 5.4.22
+-- โฮสต์: 127.0.0.1
+-- เวลาในการสร้าง: 
+-- เวอร์ชั่นของเซิร์ฟเวอร์: 5.5.34
+-- รุ่นของ PHP: 5.4.22
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,13 +17,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `production_plan`
+-- ฐานข้อมูล: `production_plan`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `ci_sessions`
+-- โครงสร้างตาราง `ci_sessions`
 --
 
 CREATE TABLE IF NOT EXISTS `ci_sessions` (
@@ -37,17 +37,16 @@ CREATE TABLE IF NOT EXISTS `ci_sessions` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `ci_sessions`
+-- dump ตาราง `ci_sessions`
 --
 
 INSERT INTO `ci_sessions` (`session_id`, `ip_address`, `user_agent`, `last_activity`, `user_data`) VALUES
-('02d7367c1fad9ecea081d535935c1b4d', '::1', 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:29.0) Gecko/20100101 Firefox/29.0', 1400915465, ''),
-('f40f723744da9dda6945141b2c1701b3', '::1', 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:29.0) Gecko/20100101 Firefox/29.0', 1400904404, 'a:7:{s:9:"user_data";s:0:"";s:8:"identity";s:15:"admin@admin.com";s:8:"username";s:13:"administrator";s:5:"email";s:15:"admin@admin.com";s:7:"user_id";s:1:"1";s:14:"old_last_login";s:10:"1400832490";s:8:"is_admin";b:1;}');
+('85a02660f0205e44b6756a0b1b5eb44f', '::1', 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36', 1401099931, 'a:7:{s:9:"user_data";s:0:"";s:8:"identity";s:15:"admin@admin.com";s:8:"username";s:13:"administrator";s:5:"email";s:15:"admin@admin.com";s:7:"user_id";s:1:"1";s:14:"old_last_login";s:10:"1401073041";s:8:"is_admin";b:1;}');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `duration`
+-- โครงสร้างตาราง `duration`
 --
 
 CREATE TABLE IF NOT EXISTS `duration` (
@@ -59,7 +58,7 @@ CREATE TABLE IF NOT EXISTS `duration` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
 
 --
--- Dumping data for table `duration`
+-- dump ตาราง `duration`
 --
 
 INSERT INTO `duration` (`id`, `timestart`, `timeend`, `sort_order`) VALUES
@@ -70,7 +69,7 @@ INSERT INTO `duration` (`id`, `timestart`, `timeend`, `sort_order`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `groups`
+-- โครงสร้างตาราง `groups`
 --
 
 CREATE TABLE IF NOT EXISTS `groups` (
@@ -81,7 +80,7 @@ CREATE TABLE IF NOT EXISTS `groups` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
 
 --
--- Dumping data for table `groups`
+-- dump ตาราง `groups`
 --
 
 INSERT INTO `groups` (`id`, `name`, `description`) VALUES
@@ -92,7 +91,7 @@ INSERT INTO `groups` (`id`, `name`, `description`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `jobs`
+-- โครงสร้างตาราง `jobs`
 --
 
 CREATE TABLE IF NOT EXISTS `jobs` (
@@ -105,7 +104,7 @@ CREATE TABLE IF NOT EXISTS `jobs` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=19 ;
 
 --
--- Dumping data for table `jobs`
+-- dump ตาราง `jobs`
 --
 
 INSERT INTO `jobs` (`id`, `name`, `description`, `type`, `color`) VALUES
@@ -131,17 +130,17 @@ INSERT INTO `jobs` (`id`, `name`, `description`, `type`, `color`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `job_type`
+-- โครงสร้างตาราง `job_type`
 --
 
 CREATE TABLE IF NOT EXISTS `job_type` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(200) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 --
--- Dumping data for table `job_type`
+-- dump ตาราง `job_type`
 --
 
 INSERT INTO `job_type` (`id`, `name`) VALUES
@@ -151,7 +150,7 @@ INSERT INTO `job_type` (`id`, `name`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `login_attempts`
+-- โครงสร้างตาราง `login_attempts`
 --
 
 CREATE TABLE IF NOT EXISTS `login_attempts` (
@@ -165,7 +164,7 @@ CREATE TABLE IF NOT EXISTS `login_attempts` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `papers`
+-- โครงสร้างตาราง `papers`
 --
 
 CREATE TABLE IF NOT EXISTS `papers` (
@@ -176,7 +175,7 @@ CREATE TABLE IF NOT EXISTS `papers` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=10 ;
 
 --
--- Dumping data for table `papers`
+-- dump ตาราง `papers`
 --
 
 INSERT INTO `papers` (`id`, `name`, `description`) VALUES
@@ -193,7 +192,7 @@ INSERT INTO `papers` (`id`, `name`, `description`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `plan`
+-- โครงสร้างตาราง `plan`
 --
 
 CREATE TABLE IF NOT EXISTS `plan` (
@@ -220,7 +219,7 @@ CREATE TABLE IF NOT EXISTS `plan` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `technician`
+-- โครงสร้างตาราง `technician`
 --
 
 CREATE TABLE IF NOT EXISTS `technician` (
@@ -230,7 +229,7 @@ CREATE TABLE IF NOT EXISTS `technician` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 --
--- Dumping data for table `technician`
+-- dump ตาราง `technician`
 --
 
 INSERT INTO `technician` (`id`, `name`) VALUES
@@ -239,7 +238,7 @@ INSERT INTO `technician` (`id`, `name`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `users`
+-- โครงสร้างตาราง `users`
 --
 
 CREATE TABLE IF NOT EXISTS `users` (
@@ -264,11 +263,11 @@ CREATE TABLE IF NOT EXISTS `users` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
 
 --
--- Dumping data for table `users`
+-- dump ตาราง `users`
 --
 
 INSERT INTO `users` (`id`, `ip_address`, `username`, `password`, `salt`, `email`, `activation_code`, `forgotten_password_code`, `forgotten_password_time`, `remember_code`, `created_on`, `last_login`, `active`, `first_name`, `last_name`, `company`, `phone`) VALUES
-(1, '\0\0', 'administrator', '100e1e621911f0c4392d6a2dcd856f0f8778a4cc', '9462e8eee0', 'admin@admin.com', NULL, NULL, NULL, '2059f56c64e4cc51b1ddb6bde72288cb7f89b58a', 1268889823, 1400897018, 1, 'Admin', 'istrator', 'ADMIN', '0'),
+(1, '\0\0', 'administrator', '100e1e621911f0c4392d6a2dcd856f0f8778a4cc', '9462e8eee0', 'admin@admin.com', NULL, NULL, NULL, '2059f56c64e4cc51b1ddb6bde72288cb7f89b58a', 1268889823, 1401095064, 1, 'Admin', 'istrator', 'ADMIN', '0'),
 (2, '172.168.0.184', 'Tanawat', 'd812d4f06c290ad150ab25285250497361070ecf', NULL, 'tanardroid@gmail.com', NULL, '563d1b4585b49efe0769dec9a6dc6550e37fa91f', 1391397410, NULL, 1390877678, 1390877678, 1, 'ธนวัช', 'ไร่ทิม', 'wswp', '66868932964'),
 (3, '172.168.0.184', 'kapor lib', 'ff7dbf5e7ebbf7d778b49291630f1e2c6c5c220a', NULL, 'kaporlib@gmail.com', NULL, NULL, NULL, NULL, 1391591524, 1391591524, 1, 'Kapor', 'Lib', 'WSWP', '0868932964'),
 (4, '172.168.0.184', 'fdsf fdsfds', '45af7308e9143c46256779bc0d311ca97a125b9f', NULL, 'bigivt@hotmail.co.th', '3beb358cfbe28140d5638babc11a264afc1de800', NULL, NULL, NULL, 1391595979, 1391595979, 0, 'ทดสอบ', 'ทดสอบ', 'ทดสอบ', '0868932964'),
@@ -278,7 +277,7 @@ INSERT INTO `users` (`id`, `ip_address`, `username`, `password`, `salt`, `email`
 -- --------------------------------------------------------
 
 --
--- Table structure for table `users_groups`
+-- โครงสร้างตาราง `users_groups`
 --
 
 CREATE TABLE IF NOT EXISTS `users_groups` (
@@ -292,7 +291,7 @@ CREATE TABLE IF NOT EXISTS `users_groups` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=19 ;
 
 --
--- Dumping data for table `users_groups`
+-- dump ตาราง `users_groups`
 --
 
 INSERT INTO `users_groups` (`id`, `user_id`, `group_id`) VALUES
