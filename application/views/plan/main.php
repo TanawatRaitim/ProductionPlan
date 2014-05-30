@@ -139,8 +139,7 @@
 			    </fieldset>
 			      
 			    <!-- <br /><br />   -->
-			      
-			      
+			    
 			    <div class="col-md-6">
 			    	<fieldset class="bg-success" style="padding: 0px 0px 15px 10px;">
 					  <legend style="margin-bottom: 0px;">การผลิต</legend>
