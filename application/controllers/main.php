@@ -14,8 +14,6 @@ class Main extends CI_Controller {
 			exit();
 		}
 		
-		// $this->load->database();
-		// $this->load->helper('url');
 		$this->load->library('grocery_CRUD');
 	}
 
@@ -48,8 +46,6 @@ class Main extends CI_Controller {
 	{
 		$this->load->model('member_model');
 		
-		
-		
 		if(!($keyword) && !($this->input->post('keyword')))
 		{
 			redirect('');
@@ -61,17 +57,7 @@ class Main extends CI_Controller {
 			}	
 		}
 		
-		//echo $keyword;
-		
-		
-		
 		$this->data['keyword'] = $keyword;
-		
-		
-		//print_r($_POST);
-		//echo $this->data['keyword'];
-		//exit;
-		
 		$this->data['title'] = 'หน้าหลัก';
 		
 /********************************        config pagination    ********************/		

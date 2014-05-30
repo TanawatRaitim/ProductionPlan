@@ -31,11 +31,8 @@ class Plan extends CI_Controller {
 		$this->data['js'] = $this->assets->get_js($js);
 		$this->data['title'] = "วางแผน";
 		$this->data['job_dropdown'] = job_dropdown();
-		
-		
 		$this->data['navigation'] = $this->load->view('template/navigation','',TRUE);
 		$this->data['content'] = $this->load->view('plan/main',$this->data,TRUE);
-		
 		$this->load->view('template/main',$this->data);
 	
 	}
