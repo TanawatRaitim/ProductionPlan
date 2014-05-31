@@ -36,7 +36,7 @@ class Main extends CI_Controller {
 		$this->data['js'] = $this->assets->get_js($js);
 		$this->data['title'] = "หน้าหลัก";
 		$this->data['navigation'] = $this->load->view('template/navigation','',TRUE);
-		$this->data['content'] = $this->load->view('template/main/main','',TRUE);
+		$this->data['content'] = $this->load->view('main/main','',TRUE);
 		
 		$this->load->view('template/main',$this->data);
 	
